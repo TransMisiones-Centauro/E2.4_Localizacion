@@ -25,3 +25,6 @@
 [submodule "GLO"]
 	path = GLO
 	url = https://github.com/TransMisiones-Centauro/GLO
+[submodule "LIO/Super-LIO"]
+	path = LIO/Super-LIO
+	url = https://github.com/ecervera/Super-LIO
