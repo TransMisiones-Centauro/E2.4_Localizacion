@@ -31,3 +31,6 @@
 [submodule "LIO/RKO-LIO"]
 	path = LIO/RKO-LIO
 	url = https://github.com/ecervera/rko_lio
+[submodule "LIO/DLIO"]
+	path = LIO/DLIO
+	url = https://github.com/ecervera/direct_lidar_inertial_odometry
