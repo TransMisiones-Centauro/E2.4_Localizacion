@@ -28,3 +28,6 @@
 [submodule "LIO/Super-LIO"]
 	path = LIO/Super-LIO
 	url = https://github.com/ecervera/Super-LIO
+[submodule "LIO/RKO-LIO"]
+	path = LIO/RKO-LIO
+	url = https://github.com/ecervera/rko_lio
