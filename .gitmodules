@@ -34,3 +34,9 @@
 [submodule "LIO/DLIO"]
 	path = LIO/DLIO
 	url = https://github.com/ecervera/direct_lidar_inertial_odometry
+[submodule "LIO/FAST_LIO"]
+	path = LIO/FAST_LIO
+	url = https://github.com/TransMisiones-Centauro/FAST_LIO
+[submodule "LIO/kiss-icp"]
+	path = LIO/kiss-icp
+	url = https://github.com/TransMisiones-Centauro/kiss-icp
