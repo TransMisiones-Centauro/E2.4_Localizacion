@@ -27,13 +27,13 @@
 	url = https://github.com/TransMisiones-Centauro/GLO
 [submodule "LIO/Super-LIO"]
 	path = LIO/Super-LIO
-	url = https://github.com/ecervera/Super-LIO
+	url = https://github.com/TransMisiones-Centauro/Super-LIO
 [submodule "LIO/RKO-LIO"]
 	path = LIO/RKO-LIO
-	url = https://github.com/ecervera/rko_lio
+	url = https://github.com/TransMisiones-Centauro/rko_lio
 [submodule "LIO/DLIO"]
 	path = LIO/DLIO
-	url = https://github.com/ecervera/direct_lidar_inertial_odometry
+	url = https://github.com/TransMisiones-Centauro/direct_lio
 [submodule "LIO/FAST_LIO"]
 	path = LIO/FAST_LIO
 	url = https://github.com/TransMisiones-Centauro/FAST_LIO
