@@ -66,3 +66,7 @@ con menor consumo de recursos que otros métodos del estado del arte.
 * Compatible con plataformas x86_64 y ARM64.
 * Instrucciones de construcción (incluyendo Livox-SDK2 y `livox_ros_driver2`) y ejecución con Podman o Docker:
   [`Super-LIO/container/README.md`](https://github.com/TransMisiones-Centauro/Super-LIO/blob/ros2/container/README.md).
+* La imagen [`ghcr.io/transmisiones-centauro/super_lio`](https://github.com/orgs/TransMisiones-Centauro/packages/container/package/super_lio)
+  se construye y se prueba automáticamente con cada cambio en el repositorio, mediante un
+  [flujo de trabajo de GitHub Actions](https://github.com/TransMisiones-Centauro/Super-LIO/blob/ros2/.github/workflows/container.yml).
+  La prueba ejecuta Super-LIO con datos sintéticos de LiDAR e IMU y comprueba su odometría; la imagen solo se publica si la prueba es satisfactoria.
