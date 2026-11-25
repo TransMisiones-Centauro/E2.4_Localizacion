@@ -39,6 +39,7 @@ de los casos sin ajustar parámetros. Se incluye como referencia frente a los m�
 * Disponible como paquete de Python (`pip install kiss-icp`) y como paquete de ROS 2 (`colcon build --packages-select kiss_icp`).
 * El soporte de ROS 1 está obsoleto desde la versión v0.3.0.
 * El directorio `2D_LiDAR` contiene una configuración y scripts de ejemplo para ejecutarlo sobre datos de LiDAR 2D.
+* Instrucciones de construcción y ejecución con Podman o Docker: [`kiss-icp/container/README.md`](https://github.com/TransMisiones-Centauro/kiss-icp/blob/main/container/README.md).
 
 ## 4. RKO-LIO
 

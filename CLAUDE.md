@@ -26,7 +26,7 @@ Changes to method code belong in the submodule's own fork repository. In this re
 
 ## Container workflow (per LIO method)
 
-The target platform is **ROS 2 Jazzy**, packaged with **Podman** (Docker also works). Some submodules have a `container/README.md` with the recipe: `LIO/RKO-LIO/container/README.md` and `LIO/Super-LIO/container/README.md`. The recipes follow the same pattern:
+The target platform is **ROS 2 Jazzy**, packaged with **Podman** (Docker also works). Some submodules have a `container/README.md` with the recipe: `LIO/kiss-icp/container/README.md`, `LIO/RKO-LIO/container/README.md` and `LIO/Super-LIO/container/README.md`. The recipes follow the same pattern:
 
 1. Start from `docker.io/osrf/ros:jazzy-desktop-full` and install the dependencies interactively, or `colcon build` the package in `/ros2_ws`.
 2. Save the result with `podman commit` and push it to `ghcr.io/transmisiones-centauro/<method>:latest`.
