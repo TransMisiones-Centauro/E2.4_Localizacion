@@ -58,3 +58,21 @@ La adherencia al [Principio de Mínimo Privilegio](https://en.wikipedia.org/wiki
 mejora significativamente la seguridad del sistema anfitrión, 
 ya que un escape del contenedor sólo concedería acceso a los permisos limitados del usuario.
 
+## 3. Repositorio de métodos LIO
+
+## 4. Conclusiones
+
+En este entregable se han revisado diferentes métodos de LIO para el proyecto Centauro, incluyendo la información necesaria para su utilización en ROS 2 con Docker. 
+
+## 5. Referencias
+
+
+## 6. Referencias
+
+<!-- Responsable: UJI -->
+
+<!-- Contenido: enlaces de interés -->
+
+* [Docker Documentation](https://docs.docker.com/)
+* [ROS 2 Documentation: Jazzy](https://docs.ros.org/en/jazzy/index.html)
+
