@@ -88,7 +88,7 @@ La descripción detallada de cada método se encuentra en [`LIO/README.md`](./LI
 
 ## 4. Conclusiones
 
-En este entregable se han revisado diferentes métodos de LIO para el proyecto Centauro, incluyendo la información necesaria para su utilización en ROS 2 con Docker. 
+En este entregable se han revisado diferentes métodos de LIO para el proyecto Centauro, incluyendo la información necesaria para su utilización en ROS 2 con contenedores. 
 
 ## 5. Referencias
 
