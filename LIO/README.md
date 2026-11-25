@@ -18,7 +18,7 @@ para corregir con precisión la distorsión por movimiento. Es la evolución de 
 ## 2. FAST-LIO
 
 [FAST-LIO](https://github.com/TransMisiones-Centauro/FAST_LIO)
-([FAST-LIO](https://arxiv.org/abs/2010.08196), [FAST-LIO2](./FAST_LIO/doc/Fast_LIO_2.pdf))
+([FAST-LIO](https://arxiv.org/abs/2010.08196), [FAST-LIO2](https://github.com/TransMisiones-Centauro/FAST_LIO/blob/main/doc/Fast_LIO_2.pdf))
 fusiona los puntos LiDAR con los datos de la IMU mediante un filtro de Kalman extendido iterado y fuertemente acoplado,
 lo que lo hace robusto ante movimientos rápidos y entornos ruidosos o degenerados.
 
@@ -49,7 +49,7 @@ es un sistema LIO robusto que no requiere modelado específico del sensor, valid
 * Disponible como paquete oficial de ROS 2 (Humble, Jazzy, Kilted, Lyrical, Rolling): `apt install ros-$ROS_DISTRO-rko-lio`.
 * También como paquete de Python (`pip install "rko_lio[all]"`), capaz de procesar directamente *rosbags* de ROS 1 y ROS 2.
 * Requiere las transformaciones extrínsecas de la IMU y el LiDAR respecto a la base del robot, leídas del árbol TF o de un fichero de configuración.
-* Instrucciones de construcción y ejecución con Podman o Docker: [`RKO-LIO/podman/README.md`](./RKO-LIO/podman/README.md).
+* Instrucciones de construcción y ejecución con Podman o Docker: [`RKO-LIO/podman/README.md`](https://github.com/TransMisiones-Centauro/rko_lio/blob/master/podman/README.md).
 
 ## 5. Super-LIO
 
@@ -62,4 +62,4 @@ con menor consumo de recursos que otros métodos del estado del arte.
 * Soporta ROS 2 (Humble, Iron, Jazzy) en la rama `ros2` y ROS 1 Noetic en la rama `ros1`.
 * Compatible con plataformas x86_64 y ARM64.
 * Instrucciones de construcción (incluyendo Livox-SDK2 y `livox_ros_driver2`) y ejecución con Podman o Docker:
-  [`Super-LIO/podman/README.md`](./Super-LIO/podman/README.md).
+  [`Super-LIO/podman/README.md`](https://github.com/TransMisiones-Centauro/Super-LIO/blob/ros2/podman/README.md).

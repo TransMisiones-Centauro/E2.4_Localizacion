@@ -78,11 +78,11 @@ git submodule update --init --recursive
 
 | Método | Sensores | Soporte ROS 2 | Contenedor | Publicación |
 |---|---|---|---|---|
-| [DLIO](./LIO/DLIO) | LiDAR + IMU | Rama `feature/ros2` | - | IEEE ICRA 2023 |
-| [FAST-LIO](./LIO/FAST_LIO) | LiDAR + IMU | Rama `ROS2` | - | IEEE RA-L 2021, IEEE T-RO 2022 |
-| [KISS-ICP](./LIO/kiss-icp) | Solo LiDAR | Sí | - | IEEE RA-L 2023 |
-| [RKO-LIO](./LIO/RKO-LIO) | LiDAR + IMU | Paquete oficial Jazzy | [Podman / Docker](./LIO/RKO-LIO/podman/README.md) | IEEE RA-L 2026 |
-| [Super-LIO](./LIO/Super-LIO) | LiDAR + IMU | Rama `ros2` (Humble/Iron/Jazzy) | [Podman / Docker](./LIO/Super-LIO/podman/README.md) | IEEE RA-L 2026 |
+| [DLIO](https://github.com/TransMisiones-Centauro/direct_lio) | LiDAR + IMU | Rama `feature/ros2` | - | IEEE ICRA 2023 |
+| [FAST-LIO](https://github.com/TransMisiones-Centauro/FAST_LIO) | LiDAR + IMU | Rama `ROS2` | - | IEEE RA-L 2021, IEEE T-RO 2022 |
+| [KISS-ICP](https://github.com/TransMisiones-Centauro/kiss-icp) | Solo LiDAR | Sí | - | IEEE RA-L 2023 |
+| [RKO-LIO](https://github.com/TransMisiones-Centauro/rko_lio) | LiDAR + IMU | Paquete oficial Jazzy | [Podman / Docker](https://github.com/TransMisiones-Centauro/rko_lio/blob/master/podman/README.md) | IEEE RA-L 2026 |
+| [Super-LIO](https://github.com/TransMisiones-Centauro/Super-LIO) | LiDAR + IMU | Rama `ros2` (Humble/Iron/Jazzy) | [Podman / Docker](https://github.com/TransMisiones-Centauro/Super-LIO/blob/ros2/podman/README.md) | IEEE RA-L 2026 |
 
 La descripción detallada de cada método se encuentra en [`LIO/README.md`](./LIO/README.md).
 
