@@ -10,7 +10,7 @@ es un algoritmo LIO ligero que construye trayectorias en tiempo continuo con un 
 para corregir con precisión la distorsión por movimiento. Es la evolución de DLO
 ([Direct LiDAR Odometry](https://github.com/vectr-ucla/direct_lidar_odometry)).
 
-* Compatible con LiDAR Ouster, Velodyne, Hesai y Livox, con entradas `sensor_msgs/PointCloud2` e `sensor_msgs/Imu`.
+* Compatible con LiDAR Ouster, Velodyne, Hesai y Livox, con entradas `sensor_msgs/PointCloud2` y `sensor_msgs/Imu`.
 * Requiere que LiDAR e IMU estén correctamente sincronizados en el tiempo; se recomienda un LiDAR con IMU integrada.
 * La calibración extrínseca e intrínseca se configura en `cfg/dlio.yaml`.
 * La rama principal es para ROS 1; el soporte de ROS 2 está en la rama `feature/ros2`.
@@ -18,7 +18,7 @@ para corregir con precisión la distorsión por movimiento. Es la evolución de 
 ## 2. FAST-LIO
 
 [FAST-LIO](https://github.com/TransMisiones-Centauro/FAST_LIO)
-([FAST-LIO](https://arxiv.org/abs/2010.08196), [FAST-LIO2](https://github.com/TransMisiones-Centauro/FAST_LIO/blob/main/doc/Fast_LIO_2.pdf))
+([paper](https://ieeexplore.ieee.org/document/9697912), [arXiv](https://arxiv.org/abs/2010.08196))
 fusiona los puntos LiDAR con los datos de la IMU mediante un filtro de Kalman extendido iterado y fuertemente acoplado,
 lo que lo hace robusto ante movimientos rápidos y entornos ruidosos o degenerados.
 
