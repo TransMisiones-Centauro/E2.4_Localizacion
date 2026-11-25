@@ -49,7 +49,7 @@ es un sistema LIO robusto que no requiere modelado específico del sensor, valid
 * Disponible como paquete oficial de ROS 2 (Humble, Jazzy, Kilted, Lyrical, Rolling): `apt install ros-$ROS_DISTRO-rko-lio`.
 * También como paquete de Python (`pip install "rko_lio[all]"`), capaz de procesar directamente *rosbags* de ROS 1 y ROS 2.
 * Requiere las transformaciones extrínsecas de la IMU y el LiDAR respecto a la base del robot, leídas del árbol TF o de un fichero de configuración.
-* Instrucciones de construcción y ejecución con Podman o Docker: [`RKO-LIO/podman/README.md`](https://github.com/TransMisiones-Centauro/rko_lio/blob/master/podman/README.md).
+* Instrucciones de construcción y ejecución con Podman o Docker: [`RKO-LIO/container/README.md`](https://github.com/TransMisiones-Centauro/rko_lio/blob/master/container/README.md).
 
 ## 5. Super-LIO
 
@@ -62,4 +62,4 @@ con menor consumo de recursos que otros métodos del estado del arte.
 * Soporta ROS 2 (Humble, Iron, Jazzy) en la rama `ros2` y ROS 1 Noetic en la rama `ros1`.
 * Compatible con plataformas x86_64 y ARM64.
 * Instrucciones de construcción (incluyendo Livox-SDK2 y `livox_ros_driver2`) y ejecución con Podman o Docker:
-  [`Super-LIO/podman/README.md`](https://github.com/TransMisiones-Centauro/Super-LIO/blob/ros2/podman/README.md).
+  [`Super-LIO/container/README.md`](https://github.com/TransMisiones-Centauro/Super-LIO/blob/ros2/container/README.md).
