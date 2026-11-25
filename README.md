@@ -81,7 +81,7 @@ git submodule update --init --recursive
 | [DLIO](./LIO/DLIO) | LiDAR + IMU | Rama `feature/ros2` | - | IEEE ICRA 2023 |
 | [FAST-LIO](./LIO/FAST_LIO) | LiDAR + IMU | Rama `ROS2` | - | IEEE RA-L 2021, IEEE T-RO 2022 |
 | [KISS-ICP](./LIO/kiss-icp) | Solo LiDAR | Sí | - | IEEE RA-L 2023 |
-| [RKO-LIO](./LIO/RKO-LIO) | LiDAR + IMU | Paquete oficial Jazzy | [Podman](./LIO/RKO-LIO/podman/README.md) | IEEE RA-L 2026 |
+| [RKO-LIO](./LIO/RKO-LIO) | LiDAR + IMU | Paquete oficial Jazzy | [Podman / Docker](./LIO/RKO-LIO/podman/README.md) | IEEE RA-L 2026 |
 | [Super-LIO](./LIO/Super-LIO) | LiDAR + IMU | Rama `ros2` (Humble/Iron/Jazzy) | [Podman](./LIO/Super-LIO/podman/README.md) | IEEE RA-L 2026 |
 
 La descripción detallada de cada método se encuentra en [`LIO/README.md`](./LIO/README.md).

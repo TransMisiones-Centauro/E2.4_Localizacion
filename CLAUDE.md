@@ -40,4 +40,4 @@ The target platform is **ROS 2 Jazzy**, packaged with **Podman** (Docker also wo
        ghcr.io/ecervera/<method>:latest
    ```
 
-When you document a new method, follow this same `podman/README.md` structure ("Create software image" / "Run container").
+When you document a new method, follow this same `podman/README.md` structure ("Create software image" / "Run container"). `LIO/RKO-LIO/podman/README.md` is the most complete example: it uses `$ENGINE` so the same commands work with Podman or Docker.
