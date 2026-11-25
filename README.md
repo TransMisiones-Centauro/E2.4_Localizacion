@@ -96,6 +96,7 @@ En este entregable se han revisado diferentes métodos de LIO para el proyecto C
 
 <!-- Contenido: enlaces de interés -->
 
-* [Docker Documentation](https://docs.docker.com/)
 * [ROS 2 Documentation: Jazzy](https://docs.ros.org/en/jazzy/index.html)
+* [Docker Documentation](https://docs.docker.com/)
+* [Podman Documentation](https://docs.podman.io/)
 
