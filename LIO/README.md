@@ -14,6 +14,7 @@ para corregir con precisión la distorsión por movimiento. Es la evolución de 
 * Requiere que LiDAR e IMU estén correctamente sincronizados en el tiempo; se recomienda un LiDAR con IMU integrada.
 * La calibración extrínseca e intrínseca se configura en `cfg/dlio.yaml`.
 * La rama principal es para ROS 1; el soporte de ROS 2 está en la rama `feature/ros2`.
+* Instrucciones de construcción y ejecución con Podman o Docker (versión ROS 2): [`direct_lio/container/README.md`](https://github.com/TransMisiones-Centauro/direct_lio/blob/master/container/README.md).
 
 ## 2. FAST-LIO
 
