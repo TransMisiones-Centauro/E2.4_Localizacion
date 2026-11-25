@@ -12,7 +12,7 @@ There is no build, lint or test step at the top level. The source code lives in 
 
 - `README.md`: the deliverable document itself. Numbered sections (Resumen, Metodología, Repositorio de métodos LIO, Conclusiones, Referencias). HTML comments such as `<!-- Responsable: UJI -->` and `<!-- Contenido: ... -->` mark who owns each section and what it should contain. Keep them when editing.
 - `Resources.md`: a curated list of links to odometry and SLAM resources (3D LiDAR, visual, 2D LiDAR, SLAM). It was split out of the README.
-- `LIO/`: git submodules, one per LiDAR-Inertial Odometry method being evaluated: `DLIO`, `FAST_LIO`, `RKO-LIO`, `Super-LIO`, `kiss-icp`. They are all forks under the `TransMisiones-Centauro` GitHub org.
+- `LIO/`: git submodules, one per LiDAR-Inertial Odometry method being evaluated: `DLIO`, `FAST_LIO`, `RKO-LIO`, `Super-LIO`, `kiss-icp`. They are all forks under the `TransMisiones-Centauro` GitHub org. `LIO/README.md` (in Spanish) describes each method. Section 3 of the top-level README keeps only the introduction and a comparison table.
 - `img/`: partner logos used in the README header.
 
 ## Submodules
