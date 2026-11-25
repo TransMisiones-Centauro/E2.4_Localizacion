@@ -66,9 +66,6 @@ En este entregable se han revisado diferentes métodos de LIO para el proyecto C
 
 ## 5. Referencias
 
-
-## 6. Referencias
-
 <!-- Responsable: UJI -->
 
 <!-- Contenido: enlaces de interés -->
