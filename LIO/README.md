@@ -29,6 +29,7 @@ lo que lo hace robusto ante movimientos rápidos y entornos ruidosos o degenerad
 * Funciona en plataformas ARM (Khadas VIM3, NVIDIA TX2, Raspberry Pi 4B).
 * Con sensores Livox necesita `livox_ros_driver` y el tipo de mensaje `CustomMsg`, que incluye la marca de tiempo de cada punto.
 * La rama principal es para ROS 1; el soporte de ROS 2 está en la rama `ROS2`.
+* Instrucciones de construcción y ejecución con Podman o Docker (versión ROS 2): [`FAST_LIO/container/README.md`](https://github.com/TransMisiones-Centauro/FAST_LIO/blob/main/container/README.md).
 
 ## 3. KISS-ICP
 
