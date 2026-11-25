@@ -29,7 +29,7 @@ Changes to method code belong in the submodule's own fork repository. In this re
 The target platform is **ROS 2 Jazzy**, packaged with **Podman** (Docker also works). Some submodules have a `container/README.md` with the recipe: `LIO/RKO-LIO/container/README.md` and `LIO/Super-LIO/container/README.md`. The recipes follow the same pattern:
 
 1. Start from `docker.io/osrf/ros:jazzy-desktop-full` and install the dependencies interactively, or `colcon build` the package in `/ros2_ws`.
-2. Save the result with `podman commit` and push it to `ghcr.io/ecervera/<method>:latest`.
+2. Save the result with `podman commit` and push it to `ghcr.io/transmisiones-centauro/<method>:latest`.
 3. Run it with X11 forwarding for RViz:
    ```bash
    xhost +local:$USER
@@ -37,7 +37,7 @@ The target platform is **ROS 2 Jazzy**, packaged with **Podman** (Docker also wo
        --env="DISPLAY=$DISPLAY" --env="QT_X11_NO_MITSHM=1" \
        --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" \
        --device /dev/dri \
-       ghcr.io/ecervera/<method>:latest
+       ghcr.io/transmisiones-centauro/<method>:latest
    ```
 
 When you document a new method, follow this same `container/README.md` structure ("Create software image" / "Run container"). `LIO/RKO-LIO/container/README.md` is the most complete example: it uses `$ENGINE` so the same commands work with Podman or Docker.
