@@ -61,5 +61,5 @@ con menor consumo de recursos que otros métodos del estado del arte.
 
 * Soporta ROS 2 (Humble, Iron, Jazzy) en la rama `ros2` y ROS 1 Noetic en la rama `ros1`.
 * Compatible con plataformas x86_64 y ARM64.
-* Instrucciones de construcción (incluyendo Livox-SDK2 y `livox_ros_driver2`) y ejecución con Podman:
+* Instrucciones de construcción (incluyendo Livox-SDK2 y `livox_ros_driver2`) y ejecución con Podman o Docker:
   [`Super-LIO/podman/README.md`](./Super-LIO/podman/README.md).
